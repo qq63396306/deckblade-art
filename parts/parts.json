@@ -1,0 +1,171 @@
+{
+ "scale": "native px; the 8x sheet is the same at 8 x 8 blocks",
+ "size": [
+  104,
+  124
+ ],
+ "parts": {
+  "head": {
+   "rect": [
+    4,
+    4,
+    22,
+    22
+   ],
+   "pivot": [
+    10,
+    17
+   ],
+   "end": [
+    10,
+    6
+   ],
+   "from": "neck",
+   "to": "crown"
+  },
+  "torso": {
+   "rect": [
+    30,
+    4,
+    26,
+    34
+   ],
+   "pivot": [
+    13,
+    27
+   ],
+   "end": [
+    13,
+    9
+   ],
+   "from": "pelvis",
+   "to": "neck"
+  },
+  "upperArm": {
+   "rect": [
+    60,
+    4,
+    14,
+    24
+   ],
+   "pivot": [
+    7,
+    5
+   ],
+   "end": [
+    7,
+    17
+   ],
+   "from": "shoulder",
+   "to": "elbow"
+  },
+  "foreArm": {
+   "rect": [
+    78,
+    4,
+    14,
+    24
+   ],
+   "pivot": [
+    7,
+    5
+   ],
+   "end": [
+    7,
+    16
+   ],
+   "from": "elbow",
+   "to": "hand"
+  },
+  "thigh": {
+   "rect": [
+    4,
+    42,
+    18,
+    28
+   ],
+   "pivot": [
+    9,
+    7
+   ],
+   "end": [
+    9,
+    21
+   ],
+   "from": "hip",
+   "to": "knee"
+  },
+  "shin": {
+   "rect": [
+    26,
+    42,
+    16,
+    26
+   ],
+   "pivot": [
+    8,
+    5
+   ],
+   "end": [
+    8,
+    18
+   ],
+   "from": "knee",
+   "to": "ankle"
+  },
+  "foot": {
+   "rect": [
+    46,
+    42,
+    18,
+    12
+   ],
+   "pivot": [
+    5,
+    4
+   ],
+   "end": [
+    12,
+    6
+   ],
+   "from": "ankle",
+   "to": "toe"
+  },
+  "cape": {
+   "rect": [
+    4,
+    74,
+    30,
+    46
+   ],
+   "pivot": [
+    15,
+    7
+   ],
+   "end": [
+    15,
+    35
+   ],
+   "from": "neck",
+   "to": "pelvis"
+  },
+  "sword": {
+   "rect": [
+    38,
+    74,
+    62,
+    18
+   ],
+   "pivot": [
+    7,
+    9
+   ],
+   "end": [
+    54,
+    9
+   ],
+   "from": "hand",
+   "to": "tip"
+  }
+ }
+}

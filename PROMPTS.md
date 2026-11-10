@@ -268,6 +268,51 @@ dotted lines on the hood edge and the blade.
 
 ---
 
+## PARTS: the hero cut into pieces for the game's skeleton (2026-11-10)
+
+In combat the hero is moved by the game's own skeleton (every skill is a set of poses on it), so instead of animation
+strips each character is drawn once as separate parts that the game turns and places on the bones. Start with
+Dawnfrost only. The layout is fixed: `parts/parts-template-8x.png` (paint on this, 832 x 992) and
+`parts/parts-template-labelled.png` (the same with each cell's name), `parts/parts.json` (each cell, its pivot and end in
+native pixels), and `parts/assembly-preview.png` (the grey template assembled on real moves: this is how the parts are
+used). Attach the template, the labelled copy, the assembly preview, and `assets/standing/hero.png` (who he is). Paste
+STYLE, Dawnfrost's CHARACTER block, then:
+
+```
+Output: one parts sheet, exactly the size and layout of the attached template (832 x 992 px at 8x, 104 x 124 art
+pixels). Paint each part inside its own cell, over the grey mannequin, the same character, palette and detail as the
+attached standing sprite. Every cell keeps the transparent background; nothing crosses a cell's border.
+
+How the parts are used: the game turns each part around its red dot and stretches it a little so the blue dot lands on
+the next joint, then stacks the parts. So:
+- Pure side view facing right (not three-quarter): the head in profile looking right, the chest's front to the right,
+  the foot's toes to the right.
+- The red dot is the joint the part hangs from, the blue dot the next joint: keep the part's joints there. Do not draw
+  the dots themselves.
+- Draw every part whole, as if nothing covered it (no gaps where an arm crossed the chest in the standing sprite).
+- Each limb part runs 2 to 3 px past both dots with rounded ends, so joints overlap and never show a gap when turned.
+- At least as thick as the grey mannequin: the parts must read when turned at any angle; no 1 px lines.
+- Each part has its own 1 px #0e0c14 outline all round.
+
+The cells:
+- head: the head in profile with its helm, hair and crest; a short neck stump at the red dot.
+- torso: chest, waist, belt and hip armour in one piece, from the hips (red) up to the base of the neck (blue).
+- upperArm: from the shoulder (red) to the elbow (blue), with the shoulder plate on top so it turns with the arm.
+- foreArm: from the elbow (red) to the wrist, ending in a closed gauntleted fist around the blue dot.
+- thigh: from the hip (red) to the knee (blue), with the tasset on top.
+- shin: from the knee (red) to the ankle (blue), with the knee plate and the boot's upper.
+- foot: the boot, ankle at the red dot, toe at the blue, sole flat along the bottom, pointing right.
+- cape: leave empty for Dawnfrost (other characters hang their cape here, from the neck down, seen from the side).
+- sword: lying flat, pointing right: the grip centred on the red dot (the fist closes there), a gold crossguard just
+  right of it, a straight blade at least 5 px wide out to the tip at the blue dot; flat tones, no glow.
+The game uses one set of arm and leg parts for both sides (the far ones darker), so draw them once.
+```
+
+To check a sheet before keeping it: `python -I tools/assemble.py <sheet.png> parts/parts.json parts/poses.json
+preview.png` (Pillow) puts it on the same real moves as the assembly preview.
+
+---
+
 ## Checklist before a picture is kept
 
 - Downscaled to 1/8 with nearest-neighbour, every pixel is one flat colour (no stray in-between tones at the edges).
