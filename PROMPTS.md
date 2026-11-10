@@ -27,6 +27,13 @@ Hard rules:
 - A 1-pixel outline: near-black #0e0c14 around the whole silhouette; inside the figure, outlines take a darker tone
   of the colour they enclose (selective outline), so details stay crisp but not heavy.
 - Limited palette: at most 32 colours for the whole character, flat, no colour that appears only once.
+- Clean clusters, not texture: at 64 px tall each material gets at most 3 tones; every patch of one colour is at least
+  2 x 2 art pixels; no isolated single pixels, no checkerboard noise, no speckle used as "detail". Shapes come from
+  clean bands of tone following the form, the way hand-pixelled game sprites do it, never from a downscaled painting.
+- Readable at native size: the silhouette and the 2 or 3 key props (weapon, hat, goggles, crest) must read when the
+  sprite is shown at 1x. Big simple shapes first, small accents last.
+- Contrast with a dark stage: the figure's lit side is clearly lighter than #2a2b33, and the outer outline is a
+  continuous #0e0c14 line all round with no gaps.
 - Background fully transparent (if transparency is not possible: one flat #ff00ff magenta, no shadow, no floor).
 - No text, no logo, no watermark, no frame, no border, no ground shadow, no magic effects, no motion lines, no
   sparkles: the game draws its own effects.
@@ -162,9 +169,58 @@ effects. Frames: <pick one>
 
 ---
 
+## REWORK (second pass, 2026-11-10)
+
+The first batch is in the fork `0xuezhang985/deckblade-art` under `assets/standing/`. Keep these as they are:
+hero, ironblood, jadegale, sunforged, snowfield, frostblade, mossfist, runeweave, starsea. Redraw these four, each as
+OUTPUT A, with STYLE (its new "Clean clusters", "Readable" and "Contrast" rules) and its CHARACTER block, plus the
+fix below. Attach `ref/rework.png` (what to keep and what to fix) and `ref/looks-lineup.png`; attach a kept sprite such
+as `assets/standing/hero.png` as the model for cluster size and outline.
+
+### brassgun · 铜炮 (redo)
+```
+Fix: the coat reads as camouflage noise and the props are lost. Draw the long olive coat as two or three clean flat
+tones with one crisp edge highlight down the front and a clear collar; brass goggles pushed up on the forehead as one
+bright readable shape (two round lenses); a bandolier as one clear diagonal band with a few brass cartridge marks; a
+heavy brass hand cannon held low in the right hand, wider than the forearm, the brightest object on the figure.
+```
+
+### voidborn · 虚空 (redo)
+```
+Fix: the figure is too busy and dissolves into the dark. Make it a clear dark silhouette with large calm shapes: dark
+plate in two flat tones with a single violet rim light on the lit (left) edges, a crown of 3 or 4 large pale bone horns
+that clearly break the silhouette at the top, a face of solid shadow with exactly two violet eye pixels, a long cape
+cut into 4 or 5 big ragged points (not shreds), and a black greatsword with a pale edge line so it reads.
+```
+
+### emberwake · 余烬 (redo)
+```
+Fix: the body is speckled and the fire does not read as fire. Make the body a dark charred form in 2 or 3 flat tones
+with a few clean glowing crack lines (1 px wide, orange to yellow, following the limbs), hair as 4 or 5 big flat flame
+tongues going from orange at the root to pale yellow at the tips, and a torn orange sash in large clean shapes. No
+speckle anywhere.
+```
+
+### nightcrow · 夜鸦 (redo)
+```
+Fix: too dark against a dark stage. Keep the deep pointed hood, cowl and long tattered cape, but give the lit side a
+clearly lighter violet-grey (around #9690b4) along hood, shoulder and cape edge, keep the hood's opening black with
+two bright cyan eyes, and cut the cape's hem into a few large clean points.
+```
+
+### turnaround fix (Dawnfrost)
+```
+The turnaround sheet's three views are 64 px wide each; redo it as three equal 96 x 80 cells, same scale, feet on
+y = 71, so it matches the animation strips.
+```
+
+---
+
 ## Checklist before a picture is kept
 
 - Downscaled to 1/8 with nearest-neighbour, every pixel is one flat colour (no stray in-between tones at the edges).
 - The figure is 64 px tall, faces right, feet on the baseline.
 - At most 32 colours; the outline is the same near-black all round.
+- No isolated single pixels inside the figure; each colour patch is at least 2 x 2.
+- The key props named in the CHARACTER block can be pointed at in the 1x sprite.
 - Next to `ref/looks-lineup.png` at the same pixel size, it looks like the same game, just more detailed.
