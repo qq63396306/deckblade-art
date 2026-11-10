@@ -27,9 +27,11 @@ Hard rules:
 - A 1-pixel outline: near-black #0e0c14 around the whole silhouette; inside the figure, outlines take a darker tone
   of the colour they enclose (selective outline), so details stay crisp but not heavy.
 - Limited palette: at most 32 colours for the whole character, flat, no colour that appears only once.
-- Clean clusters, not texture: at 64 px tall each material gets at most 3 tones; every patch of one colour is at least
-  2 x 2 art pixels; no isolated single pixels, no checkerboard noise, no speckle used as "detail". Shapes come from
-  clean bands of tone following the form, the way hand-pixelled game sprites do it, never from a downscaled painting.
+- Clean clusters, not texture: each material gets 3 shading tones plus one highlight; colour patches are mostly 2 x 2
+  art pixels or larger and follow the form in clean bands. Single pixels are allowed only as deliberate accents (eyes,
+  rivets, buttons, gem and edge glints, seam dots), never as random speckle, checkerboard noise or a downscaled
+  painting's grain. Aim for the detail density of the kept sprites such as `assets/standing/hero.png`: interior
+  shading on every part, not flat silhouettes.
 - Readable at native size: the silhouette and the 2 or 3 key props (weapon, hat, goggles, crest) must read when the
   sprite is shown at 1x. Big simple shapes first, small accents last.
 - Contrast with a dark stage: the figure's lit side is clearly lighter than #2a2b33, and the outer outline is a
@@ -216,11 +218,61 @@ y = 71, so it matches the animation strips.
 
 ---
 
+## THIRD PASS: add detail (2026-11-10)
+
+The second pass (fork commit e6a6536) cleaned the speckle off brassgun, voidborn, emberwake and nightcrow, but they
+came out much flatter than the nine kept sprites (8 to 11 colours against 12 to 15, little interior shading), so the
+thirteen no longer read as one set. Keep each second-pass sprite's silhouette, pose, palette family and clean edges,
+and add interior detail up to the kept sprites' density. Paste STYLE, the CHARACTER block, then the block below, as
+OUTPUT A. Attach `ref/pass3.png` (the target density above, the flat second pass below), the character's second-pass
+PNG as the base, and `assets/standing/hero.png` and `assets/standing/ironblood.png` as the density models.
+
+```
+Third pass: same silhouette, pose and clean outline as the attached second-pass sprite, but redrawn with the detail
+density of the attached model sprites: 12 to 14 colours; every material in 3 shading tones plus a highlight, lit from
+the upper left; fold lines, plate seams, straps and edges drawn as short clean lines of tone; single pixels only as
+deliberate accents (eyes, rivets, buttons, glints). No speckle, no noise.
+```
+
+### brassgun · 铜炮
+```
+Add: a face with brow, eye and jaw in skin tones, messy dark-brown hair clearly separate from the goggles; brass
+goggles as two round lenses with a dark rim and a white glint each, on a strap; the long olive coat in 3 tones with
+fold lines down the skirt, a turned-up collar with its own shade and buttons; a bandolier as a clear diagonal leather
+band with 5 or 6 brass cartridge caps; the hand cannon as a machine, not a glow: a thick brass barrel with two dark
+bands, a muzzle ring, a wooden grip in the hand, highlight along its top. Boots with a sole line and a buckle.
+```
+
+### voidborn · 虚空
+```
+Add: dark plate in 3 tones (#40404f lit, #28283a mid, #0a0a10 deep) with plate seams and a violet #c07aff rim along
+the lit edges of the helm, pauldron, gauntlet and greave; exactly two bright violet eye pixels in the shadowed face,
+with a faint violet glow pixel under each; the bone-horn crown in 2 pale tones with a dark base; the cape with a darker
+inner side, 3 or 4 long fold lines and its big ragged points; the greatsword's grip, crossguard and a pale edge line.
+```
+
+### emberwake · 余烬
+```
+Add: a face: two glowing yellow eyes, a jaw and cheek line; the charred body in 3 tones (#5e3a34 lit, #3a2828 mid,
+#160e10 deep) with readable shoulders, elbows, hands, knees and feet; glowing crack lines (orange #ff5a1d into yellow
+#ffc23d, 1 px) running along arms, chest and legs; the flame hair as 5 tongues in 3 tones, white-hot at the tips; the
+torn orange sash with fold shading and a frayed end; ember dots only where cracks cross.
+```
+
+### nightcrow · 夜鸦
+```
+Add a little, keep it lean: cowl folds over the shoulders, cloth wrappings on forearms and shins as short bands,
+a belt with a small cyan buckle, the cape's inner side one tone darker with 2 or 3 fold lines, and cyan trims as short
+dotted lines on the hood edge and the blade.
+```
+
+---
+
 ## Checklist before a picture is kept
 
 - Downscaled to 1/8 with nearest-neighbour, every pixel is one flat colour (no stray in-between tones at the edges).
 - The figure is 64 px tall, faces right, feet on the baseline.
 - At most 32 colours; the outline is the same near-black all round.
-- No isolated single pixels inside the figure; each colour patch is at least 2 x 2.
+- No random speckle inside the figure; single pixels only as deliberate accents; it matches the kept sprites' detail.
 - The key props named in the CHARACTER block can be pointed at in the 1x sprite.
 - Next to `ref/looks-lineup.png` at the same pixel size, it looks like the same game, just more detailed.
