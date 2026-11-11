@@ -398,6 +398,133 @@ preview.png` (Pillow) puts it on the same real moves as the assembly preview.
 
 ---
 
+## HEROINE PARTS: the eight heroines cut into pieces for the skeleton (2026-11-11)
+
+The same skeleton and the same fixed template as Dawnfrost's **PARTS**, one sheet per heroine. Attach:
+`parts/parts-template-8x.png`, `parts/parts-template-labelled.png`, `parts/assembly-preview.png`, her approved standing
+sprite (`assets/heroines/standing/<id>.png` in the art fork), and Dawnfrost's finished sheet
+(`assets/parts/dawnfrost-parts-8x.png` in the art fork) as the example of a sheet that works in the game. Paste
+**STYLE**, **HEROINE**, her **CHARACTER** block, then **HEROINE PARTS**, then her own block below.
+
+### HEROINE PARTS (paste for every heroine)
+```
+Output: one parts sheet, exactly the size and layout of the attached template (832 x 992 px at 8x, 104 x 124 art
+pixels). Paint each part inside its own cell, over the grey mannequin: the same woman, palette and detail as her
+attached standing sprite, at the attached Dawnfrost sheet's level of finish. Every cell keeps the transparent
+background; nothing crosses a cell's border.
+
+How the parts are used: the game turns each part around its red dot and stretches it a little so the blue dot lands on
+the next joint, then stacks the parts. So:
+- Pure side view facing right (not three-quarter): her head in profile looking right (one eye, the nose and lips in
+  profile, the face clearly readable), the chest's front to the right, the toes to the right.
+- The red dot is the joint the part hangs from, the blue dot the next joint: keep the part's joints there. Do not draw
+  the dots themselves.
+- Draw every part whole, as if nothing covered it.
+- Each limb part runs 2 to 3 px past both dots with rounded ends, so joints overlap and never show a gap when turned.
+- She is slender, but no part is thinner than the grey mannequin's: slimness goes in the waist, the wrists and the
+  ankles, never in 1 px lines. Arms and legs stay readable when turned at any angle.
+- Each part has its own 1 px #0e0c14 outline all round.
+- One set of arm and leg parts serves both sides (the far ones drawn darker), so draw them once, and put nothing on an
+  arm that belongs to one side only (no shield on the forearm, no single gauntlet: give both the same).
+
+What goes where:
+- head: the head in profile with her hair as it frames the face, any hat, circlet or hairpin; a short neck stump at the
+  red dot. Hair longer than the jaw does NOT go here: it goes in the cape cell.
+- torso: from the hips (red) up to the base of the neck (blue): bodice, collar, belt, sash, and the top of the skirt
+  flaring out to just below the hips (no lower: a skirt that hung from the torso would not move with her legs).
+- upperArm: from the shoulder (red) to the elbow (blue), with the sleeve's top or a shoulder plate on it.
+- foreArm: from the elbow (red) to the wrist, ending in a closed gloved fist around the blue dot; a wide sleeve's cuff
+  may hang below the arm here.
+- thigh: from the hip (red) to the knee (blue). If she wears a skirt, coat tails or a robe, draw its panel here, hanging
+  over the thigh and swinging with it (front edge to the right), so the skirt opens as she strides.
+- shin: from the knee (red) to the ankle (blue): the boot's upper, stocking or legging; a long robe's hem continues
+  here below the knee.
+- foot: the shoe or boot, ankle at the red dot, toe at the blue, sole flat along the bottom, pointing right.
+- cape: what hangs behind her from the neck down, seen from the side, drawn behind the body: her long hair, a cape,
+  a mantle or coat tails, or all of them together, flowing back (to the left) and down. Fill the cell's height if it
+  is long.
+- sword: her weapon, lying flat and pointing right, the grip centred on the red dot (her fist closes there), the business
+  end towards the blue dot. It need not reach the blue dot if it is shorter, but it lies along the line from red to
+  blue. At least 3 px wide everywhere; the head of a staff or a gun's body may be wider. Flat tones, no glow.
+```
+
+### starweave · 星澜
+```
+Head: lilac fringe and the star clasp, the side ponytail starting at the clasp. Cape cell: the long ponytail falling
+behind her, and the deep-violet capelet with its high collar. Torso: the white blouse, the capelet's front edge, the
+skirt's top in violet over lavender with the gold hem just below the hips. Thighs: the layered skirt panel (violet over
+lavender, gold hem) over the dark stocking. Shin and foot: thigh-high stocking, short heeled boot. Forearm: fingerless
+glove. Sword cell: her staff, grip at the red dot, the gold ring with the floating cyan crystal at the far end.
+```
+
+### frostsong · 霜吟
+```
+Head: pale-blue hair with blunt bangs, framing the face. Cape cell: the waist-long straight hair and the icy coat's
+split tail behind it, the fur collar at the top. Torso: navy bodice, the open coat's front with fur trim. Thighs: the
+coat's front panel over navy shorts and leg. Shin and foot: tall armoured boot in icy blue. Sword cell: the long
+spear-staff, grip at the red dot, the hexagonal ice crystal head at the far end.
+```
+
+### crimsonedge · 绯刃
+```
+Head: black hair, the red ribbon at the back of the head, the ponytail's root. Cape cell: the long high ponytail with
+its ribbon tails, and the crimson coat's long tails behind. Torso: black fitted top, the crimson short coat's front
+with the gold-trimmed collar, the white sash knotted at the hip with its ends hanging. Forearm: give both arms the
+same dark glove with a steel cuff (one set serves both sides). Thighs: dark trouser. Shin and foot: tall black boot.
+Sword cell: the long straight single-edged blade, dark grip at the red dot, small round guard, edge facing down, at
+least 4 px wide.
+```
+
+### moonshade · 月影
+```
+Head: short silver bob, the crescent hairpin, the braided lock beside the face. Cape cell: the braided lock's length
+and the long flowing sleeves' trailing ends as ribbons behind her. Torso: the dark wrap top, the split skirt's top.
+Upper arm: bare shoulder into the sleeve. Forearm: the wide sleeve's open cuff hanging below. Thighs: the long split
+skirt's panel over a fitted legging. Shin and foot: legging and soft wrapped boot. Sword cell: one short curved blade
+(about half the cell's length), silver with a dark wrapped grip, curving up at the tip, bright edge: it must read as
+a blade at 1x.
+```
+
+### mistbell · 雾铃
+```
+Head: mint fringe framing the face, the roots of the two low tails. Cape cell: the two long mint tails and the short
+shoulder mantle behind. Torso: white robe with the jade tabard down the front, the gold rope belt with two small bells.
+Upper arm and forearm: the wide white sleeve, its cuff hanging low below the forearm. Thighs: the robe's white panel
+with the jade tabard's edge. Shin: the robe's hem to mid-shin over a pale stocking. Foot: soft slipper. Sword cell: the
+staff, grip at the red dot, the bronze bell frame with its bell at the far end.
+```
+
+### ravenquill · 鸦羽
+```
+Head: the tall crooked pointed hat with the black feather, dark wavy hair beneath it framing the face. Cape cell: the
+long dark wavy hair and the black feather mantle behind. Torso: the plum dress with its high collar. Forearm: the long
+bell sleeve's cuff hanging below. Thighs and shin: the plum dress's panel to below the knee. Foot: laced boot. Sword
+cell: the thin black wand tipped with the violet gem: short, about a third of the cell, but 3 px wide.
+```
+
+### pyrebrass · 焰铳
+```
+Head: copper waves under the tilted short brimmed cap with goggles on it. Cape cell: the wavy copper hair to the
+shoulder blades and the fur collar's back. Torso: the orange fitted top under the cropped brown jacket with its fur
+collar, the belt of brass shells across the hips. Upper arm: the jacket's sleeve. Thighs: brown cargo shorts over dark
+tights. Shin and foot: dark tights, heavy boot. Sword cell: one brass pistol, grip at the red dot, a long barrel
+pointing right along the red-to-blue line, the body and drum at least 6 px tall: it must read as a gun at 1x.
+```
+
+### skyward · 天穹
+```
+Head: golden hair and the winged circlet. Cape cell: the long braid falling behind and the short white cape. Torso:
+the fitted white-and-gold breastplate, the white tabard's top. Upper arm: the gold-edged pauldron. Forearm: the
+armoured bracer and gauntlet (both arms the same; the small shield is left out: one set of arms serves both sides).
+Thighs: the segmented tasset over the long white tabard's panel. Shin: armoured greave, the tabard's hem to mid-shin.
+Foot: armoured boot. Sword cell: the lance, grip at the red dot, the long shaft to the right with the gold pennant just
+behind the head.
+```
+
+If the standing sprite was changed on a later pass, paint the parts from the latest approved version.
+
+---
+
 ## Checklist before a picture is kept
 
 - Downscaled to 1/8 with nearest-neighbour, every pixel is one flat colour (no stray in-between tones at the edges).
