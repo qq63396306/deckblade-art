@@ -9,6 +9,21 @@
 3. 如果能上传图片，把 `ref/hero-combo-1.png` 和 `ref/looks-lineup.png` 一起传上去当风格参考。
 4. 顺序建议：先出晨霜的 A（站姿），满意后出 B（三视图），再拿定稿的站姿当参考出 C（动作条）。其他 12 个形象先只出 A。
 
+## 交付位置（固定，每一轮都一样）
+
+GPT 每次做完都推到同一个地方，Claude 只在这里取图：
+
+- 仓库 `0xuezhang985/deckblade-art`，分支 `art/dawnfrost-sprites`。不开新分支，不换仓库。
+- 每轮在分支最上面加一个新提交再推送，不强推，不改旧提交。
+- 返工直接覆盖原来的文件，路径和文件名不变：
+  - 女角色部件：`assets/heroines/parts/<id>.png`、`x8/<id>.png`、`manifest.json`
+  - 站姿：`assets/heroines/standing/<id>.png`
+  - 晨霜：`assets/parts/`
+- 提交说明第一行写明第几轮、改了什么。
+- GitHub 上看得到这次推送，才算交付；交付时报一下提交号。
+
+`PROMPTS.md` 开头的 **DELIVERY** 段就是这几条，每次随提示词一起粘给 GPT。女角色部件的第一轮返工要求在 **HEROINE PARTS rework 1**。
+
 ## 第二轮返工（2026-11-10）
 
 第一批图在 fork `0xuezhang985/deckblade-art` 的 `assets/standing/` 里。9 张保留，4 张重画：铜炮、虚空、余烬、夜鸦。另外晨霜三视图要改成每格 96×80，和动作条一致。

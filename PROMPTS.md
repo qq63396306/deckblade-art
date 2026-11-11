@@ -3,6 +3,20 @@
 Paste **STYLE** first, then one **CHARACTER** block, then one **OUTPUT** block. Attach the pictures in `ref/` as style
 references when the tool accepts images (`ref/hero-combo-1.png` and `ref/looks-lineup.png` matter most).
 
+## DELIVERY (every round, fixed)
+
+```
+Deliver every finished round to the same place, always:
+- Repository 0xuezhang985/deckblade-art, branch art/dawnfrost-sprites. No other branch, no new repository.
+- Add a new commit on top of the branch and push it. Never force-push or rewrite earlier commits.
+- A rework overwrites the same files at the same paths; it does not add copies with new names. Heroine parts:
+  assets/heroines/parts/<id>.png (1x), assets/heroines/parts/x8/<id>.png (8x), assets/heroines/parts/manifest.json.
+  Standing sprites: assets/heroines/standing/<id>.png. Dawnfrost: assets/parts/.
+- Commit message: first line names the round and who changed, e.g.
+  "Heroine parts rework 1: skirts widened, Ravenquill and Moonshade brightened".
+- The round is done only once the push shows on GitHub. Say "pushed" with the commit hash.
+```
+
 ---
 
 ## STYLE (always paste this first)
@@ -522,6 +536,17 @@ behind the head.
 ```
 
 If the standing sprite was changed on a later pass, paint the parts from the latest approved version.
+
+### HEROINE PARTS rework 1 (after fork commit 29d9ca9, 2026-11-12)
+```
+Fixes found on the game's skeleton. Keep everything else as it is; overwrite the same files (see DELIVERY).
+- Skirts read as trousers (Starweave, Moonshade, Ravenquill): on the thigh cell, draw the skirt panel 3 to 4 px wider
+  than the leg on both the front and the back edge, flaring towards the knee, in a cloth tone distinct from the
+  stocking, so a stride opens it like a skirt.
+- Ravenquill and Moonshade are too dark on the game's night background: lift the lit tones of each material by about
+  two steps and give the outer silhouette a 1 px lighter rim on the upper-left (lit) side, inside the #0e0c14 outline.
+- Cape cell: leave where it hangs as it is; the game moves its pivot itself.
+```
 
 ---
 
