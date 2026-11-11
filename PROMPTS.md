@@ -143,6 +143,91 @@ Regal, terrifying.
 
 ---
 
+## HEROINES: new women characters (2026-11-11)
+
+Original heroines in the spirit of a stylish arcade brawler's mages and swordswomen. Paste **STYLE**, then
+**HEROINE** right after it, then one character below, then one **OUTPUT** block.
+
+### HEROINE (paste after STYLE for every one of these)
+```
+The character is a young woman. Proportions about 7 heads tall: slender, long-legged, a small head with a clearly
+readable face at 64 px (two-pixel eyes with a one-pixel highlight, a hint of mouth, defined eyebrows, hair framing the
+face). Elegant and capable, a heroine of a stylish action game: fully clothed in a designed costume, tasteful, no
+exaggerated anatomy, no revealing outfit. Hair is a big readable shape with 2 or 3 clean strands that break the
+silhouette. Original design: do not copy or imitate any existing game's character, costume or logo.
+```
+
+### starweave · 星澜 Starweave (elemental mage)
+```
+Starweave, an elemental mage girl: long silver-lilac hair in a high side ponytail tied with a star clasp, a short
+deep-violet capelet with a high collar over a fitted white blouse, a layered A-line skirt (violet over pale lavender)
+with a gold hem, dark thigh-high stockings and short heeled boots, fingerless gloves. She holds a slender staff
+taller than her shoulder, topped by a ring of gold around a floating cyan crystal. Palette: violet #f2e2ff, #c08cff,
+#8a5ad8, #5a32a0, #1e0e3a; white cloth #f4f0ff; gold #ffcf3a; crystal #6ff0ff. Bright, clever, a little proud.
+```
+
+### frostsong · 霜吟 Frostsong (battle mage of ice)
+```
+Frostsong, a battle mage of ice: straight pale-blue hair to the waist with blunt bangs, a long open coat in icy blue
+with a split tail, a high fur-trimmed collar, a fitted dark navy bodice and shorts under it, tall armoured boots. She
+wields a long spear-staff whose head is a hexagonal ice crystal. Palette: #e8f4ff, #a9cdea, #6f97c6, #4a6198, #1d2348;
+fur #ffffff; crystal #7fdcff. Cool, composed.
+```
+
+### crimsonedge · 绯刃 Crimsonedge (swordswoman)
+```
+Crimsonedge, a swordswoman: long black hair in a high ponytail with a red ribbon, a crimson short coat with long
+tails and a gold-trimmed collar over a black fitted top, a white sash knotted at the hip, dark trousers tucked into
+tall boots, one segmented steel gauntlet on her sword arm. A long straight single-edged blade with a dark grip and a
+small round guard, held low and back, ready to draw. Palette: crimson #ff8a8a, #e0403a, #a8201f, #5a0e12; black
+#2b2632, #16121a; steel #eef2f8, #b4bccc, #7a8498; gold #ffc23d. Cool-headed, deadly.
+```
+
+### moonshade · 月影 Moonshade (blade dancer)
+```
+Moonshade, a blade dancer: short silver bob with a long braided lock on one side, a dark indigo wrap top with long
+flowing sleeves cut open at the shoulder, a long split skirt over fitted leggings, soft wrapped boots, a crescent
+hairpin. Two short curved blades, one in each hand, held in a dancer's stance. Palette: indigo #d0cce6, #9690b4,
+#686284, #46425e, #18152a; silver hair #f0f0f8; moon accent #6ff0ff. Graceful, quiet, light on her feet.
+```
+
+### mistbell · 雾铃 Mistbell (summoner)
+```
+Mistbell, a summoner: long mint-green hair in two low tails, a wide-sleeved white robe with a jade-green tabard and a
+gold rope belt hung with small bells, a short shoulder mantle, soft slippers. She holds a staff topped by a bronze
+bell frame and floats one small paper charm beside her hand. Palette: robe #f4f8f0, #cfe0d0; jade #9af0c8, #3ac89a,
+#1a8a6a, #0a2e28; bronze #b08a34; bell gold #ffcf3a. Gentle, kind, quietly powerful.
+```
+
+### ravenquill · 鸦羽 Ravenquill (hex witch)
+```
+Ravenquill, a hex witch: long dark wavy hair under a tall crooked pointed hat with a black feather, a dark plum dress
+with a high collar and long bell sleeves, a short black feather mantle, laced boots. A thin black wand tipped with a
+violet gem, a small open grimoire hovering at her hip. Palette: plum #d8b8ff, #a070e0, #6a3aa8, #3a1e6a, #0a0612;
+feathers #2a2440; gem #c07aff. Mysterious, amused.
+```
+
+### pyrebrass · 焰铳 Pyrebrass (gunslinger)
+```
+Pyrebrass, a gunslinger: wavy copper hair under a tilted short brimmed cap with goggles on it, a cropped brown flight
+jacket with a fur collar over an orange fitted top, a belt of brass shells across the hips, cargo shorts over dark
+tights and heavy boots. Two short brass pistols, one raised. Palette: leather #d8c8a8, #a8946c, #766444, #4e422c,
+#1e180e; orange #ff9a3c; brass #ffb04a; copper hair #c86a3a. Cheerful, bold.
+```
+
+### skyward · 天穹 Skyward (holy knight)
+```
+Skyward, a holy knight: long golden hair braided over one shoulder, a winged circlet, white and gold plate armour
+shaped to her (pauldrons, a fitted breastplate, segmented tassets over a long white tabard skirt), armoured boots, a
+short white cape. A tall lance with a gold pennant and a small kite shield on her other arm. Palette: gold #fff6d2,
+#f2d27a, #c8962e, #8a5e18, #3a2208; white #ffffff and cool grey shade; blue accent #6fb6ff. Noble, warm, unshakable.
+```
+
+If the face or hair comes out muddy at 64 px, add to the end of the character block:
+`Make the face and hair the clearest part of the sprite.`
+
+---
+
 ## OUTPUT (pick one)
 
 ### A. Standing sprite (do these first, one per character)
