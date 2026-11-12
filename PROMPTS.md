@@ -663,6 +663,24 @@ Fixes found on the game's skeleton. Keep everything else as it is; overwrite the
 ```
 
 
+
+### GLAMOUR standing rework 1 (after fork commit 4872693, 2026-11-13)
+Kept as they are: Lacecut, Queenheart, Seafoam, Emberdance, Jadephoenix, Thunderpop (go on to their parts). Redo only
+these two, from their current sprites (attach them), overwriting the same files (see DELIVERY):
+```
+redmane: skin, bronze and lion pelt are all one golden brown, so at 64 px she reads as one tan blob and her face is
+lost. Separate the three: the pelt darker and duller (#8a6a3a, #5a4224, #33240f, with a pale #d8c08a only on the mane's
+tips), the bronze brighter and harder with a 1 px dark seam between plates (#ffe08a, #e0aa4a, #a8762c, #5a3a10), the
+skin a warm copper of its own (#f4b888, #d88a5a, #a0582e, #5a2e14). Push the hair back off her face so the eyes and
+mouth show, and keep a clear gap of dark between the breastplate and the war-skirt so the bare midriff reads.
+```
+```
+nightrose: the gown's lower half is speckled with single dark-red and grey pixels; paint it as 3 flat folds per side
+with clean tone clusters, no noise. Make the bat-wing collar a clear shape: two pointed black lace wings rising
+behind her head, outlined, readable in silhouette. Lift the face one step lighter and give the red eyes a 1 px
+highlight so the face is the clearest part of the sprite.
+```
+
 ### GLAMOUR HEROINES: parts (2026-11-12)
 Paste **STYLE**, **GLAMOUR**, her character block, **HEROINE PARTS**, then her block below. Attach her approved
 standing sprite and the same templates as for the first eight. Bare skin keeps its 1 px outline on every part, and a
