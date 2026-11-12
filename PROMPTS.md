@@ -242,6 +242,120 @@ If the face or hair comes out muddy at 64 px, add to the end of the character bl
 
 ---
 
+## GLAMOUR HEROINES: costumes that show a little more (2026-11-12)
+
+Eight more original heroines, each in a costume that shows some skin: a maid, a bunny, a swimsuit, a dancer, a
+qipao, an idol, a vampire's gown, an amazon. Paste **STYLE**, then **GLAMOUR** (instead of **HEROINE**), then one
+character below, then **OUTPUT A**. Attach `assets/heroines/standing/starweave.png` from the art fork as the example
+of the finish and scale wanted.
+
+### GLAMOUR (paste after STYLE for every one of these, instead of HEROINE)
+```
+The character is an adult woman in her twenties. Proportions about 7 heads tall: slender, long-legged, a small head
+with a clearly readable face at 64 px (two-pixel eyes with a one-pixel highlight, a hint of mouth, defined eyebrows,
+hair framing the face). Confident and playful, a heroine of a stylish action game in a fashion-forward costume that
+shows some skin (bare shoulders, arms, midriff or legs, as her block says), the way costume variants in popular
+character games do. Tasteful and non-explicit: no nudity, nothing see-through, everything a swimsuit covers stays
+covered, a natural standing pose (not a pin-up pose), a natural figure with no exaggerated anatomy. Bare skin is a
+clean 4-tone skin ramp with the same 1 px outline as the clothes, so skin and cloth read apart at 64 px. Hair is a big
+readable shape with 2 or 3 clean strands that break the silhouette. Original design: do not copy or imitate any
+existing game's character, costume or logo.
+```
+
+### lacecut · 蕾刃 Lacecut (battle maid)
+```
+Lacecut, a battle maid: a short black dress with puffed short sleeves and a white frilled apron over it, the skirt
+flared to mid-thigh with a white petticoat edge, a high white collar with a small cameo, a white ruffled headdress on
+a neat chin-length black bob with one long lock tied with a red ribbon at the side, white thigh-high stockings with
+small black bows at the top (a band of bare thigh between skirt and stocking), black strapped shoes with low heels,
+short white gloves. She carries a closed black lace parasol whose shaft hides a slim blade, the silver blade drawn a
+hand's length out of its tip. Palette: black #3a3446, #26212e, #14111a; white #ffffff, #e4e2ee, #b4b0c4; silver
+#eef2f8, #9aa4b8; ribbon red #d83a5a; skin #ffe6cc, #f6c8a0, #d8956a, #8a5034. Neat, polite, terrifyingly fast.
+```
+
+### queenheart · 红心 Queenheart (gambler in a bunny costume)
+```
+Queenheart, a casino gambler in a bunny costume: a black satin strapless leotard cut high at the hip with a red
+heart-shaped buckle at the waist and a small round white tail at the back, a white detached shirt collar with a red
+bow tie, white shirt cuffs with gold links at both wrists, solid dark-grey tights (opaque), black high heels, tall
+black rabbit ears on a headband standing up and leaning back, long wavy platinum hair to the waist, bare shoulders
+and arms. She twirls a slim black cane topped by a red crystal heart; three blank playing cards are tucked in her
+collar as a small accent (plain, no real card designs). Palette: satin black #3c3848, #24202e, #120f18 with a cool
+sheen #8a86a8; red #ff5a6a, #d0283c, #7a1022; white #ffffff, #d8d6e4; gold #ffcf3a; tights #4a4458, #2e2a38; hair
+#fff4e0, #e8d6b0, #b89c70; skin #ffe6cc, #f6c8a0, #d8956a, #8a5034. Sly, lucky, always smiling.
+```
+
+### seafoam · 浪花 Seafoam (tide mage in a swimsuit)
+```
+Seafoam, a tide mage on summer duty: a white halter bikini top trimmed in aqua with a small shell clasp at the centre,
+a bare midriff, the matching bikini bottom under an aqua sarong (opaque cloth) knotted at one hip and falling to the
+knee, open at the front so one leg shows as she walks, a pink hibiscus behind one ear, long aqua-teal hair in a loose
+high ponytail, a shell bracelet on each wrist, flat sandals with ankle straps, lightly sun-kissed skin. She holds a
+coral-pink trident with a pearl set at the fork. Palette: aqua #b8fff0, #4ae0d0, #1a9aa8, #0a4a5a; white #ffffff,
+#d4ecf0; coral #ff9a9a, #e05a6a, #8a2a3a; pearl #fff8f0; hair #9af0e8, #3ac8c0, #1a7a8a; skin #ffe0c0, #f0b890,
+#c8845a, #7a4a2a. Sunny, teasing, the sea answers when she laughs.
+```
+
+### emberdance · 炎舞 Emberdance (desert fire dancer)
+```
+Emberdance, a fire dancer of the desert: a cropped crimson halter top edged with small gold coins, a bare midriff, a
+long silk skirt in orange and crimson hung from a low gold coin belt to the ankles, slit high at both sides so her
+legs flash as she turns, gold armlets on both upper arms, bangles on both wrists, gold anklets, bare feet, long
+dark-red hair in a thick braid bound with gold rings, a gold circlet with a small ruby on her brow. She whirls a
+glaive: a long staff with a curved blade at its end, red silk tassels tied below the blade. Palette: crimson #ff6a4a,
+#d0302a, #7a1418; orange silk #ffb04a, #e07a20; gold #ffe26b, #ffc23d, #b07818; hair #c83a2a, #8a1e18, #4a0e0c; skin
+#f8d0a8, #e0a070, #b06a40, #6a3a1e. Fierce, joyful, never still.
+```
+
+### jadephoenix · 翠凰 Jadephoenix (martial artist in a qipao)
+```
+Jadephoenix, a martial artist in a fighting qipao: a sleeveless jade-green qipao with a high mandarin collar, gold
+phoenix embroidery winding up from the hem and frog buttons across the chest, the skirt to mid-calf with high slits
+at both sides that open as she kicks (short black shorts beneath, seen only when a slit opens), bare arms with red
+cloth wraps at both wrists and fingerless gloves, black cloth shoes with white soles, black hair in two round buns
+with long red ribbon tails and a straight fringe. She wields a long spear with a red horsehair tassel below its
+leaf-shaped steel head. Palette: jade #9af0c8, #3ac89a, #1a8a6a, #0a3e30; gold #ffe26b, #c8962e; red #ff4a3a,
+#a8201f; hair #2b2632, #16121a; steel #eef2f8, #9aa4b8; skin #ffe6cc, #f6c8a0, #d8956a, #8a5034. Bright, quick, proud of her kicks.
+```
+
+### thunderpop · 雷音 Thunderpop (idol who sings lightning)
+```
+Thunderpop, a stage idol who sings lightning: an off-the-shoulder stage dress with a white bodice and a short layered
+skirt in electric yellow and white flaring above the knee, yellow zigzag trim along the hem, puffy detached sleeves on
+both upper arms, white gloves, white over-knee boots with yellow trim (a band of bare thigh above them), short twin
+tails in bright yellow-blonde with blue tips held by lightning-bolt clips, a small headset microphone. She swings a
+microphone staff: a tall silver stand with a round mic at its top, two ribbons tied below it. Palette: yellow
+#fff27a, #ffd23a, #e0a018; white #ffffff, #e4e8f4, #b0b8d0; electric blue #6fd8ff, #2a8ae0; hair #fff6b0, #ffd84a,
+#c8a020 with blue tips #6fb6ff; silver #eef2f8, #9aa4b8; skin #ffe6cc, #f6c8a0, #d8956a, #8a5034. Loud, sparkling, impossible to ignore.
+```
+
+### nightrose · 夜蔷 Nightrose (vampire countess)
+```
+Nightrose, a vampire countess: an off-the-shoulder black velvet gown with a deep-red bodice laced at the front, the
+skirt long at the back and split at the front over a short black underskirt so her legs show as she walks, long black
+opera gloves, a tall bat-wing collar of black lace rising behind her neck, a red rose at her hip, black heeled boots,
+long straight silver-white hair to the hips, red eyes (fangs at most one pale pixel). She carries a crimson scythe
+with a black curved shaft and a blood-red crescent blade. Palette: black #3a2a3e, #22172a, #0e0812; red #ff5a6a,
+#c01e34, #5a0a16; hair #ffffff, #d0cce6, #8a86a8; pale skin #fff0f0, #e8ccd4, #b090a0, #6a4a5a. Elegant, as old as
+her castle, amused by everything.
+```
+
+### redmane · 赤鬃 Redmane (amazon warrior)
+```
+Redmane, an amazon warrior: a sculpted bronze breastplate cut short above a bare midriff, a short leather war-skirt
+of overlapping strips with bronze studs, bronze vambraces on both forearms and greaves on both shins over sandal
+boots, a lion-pelt mantle over the shoulders with the mane as its collar, a wild mass of long red hair, a bronze
+headband, an athletic build (strong, not bulky), sun-bronzed skin. She hefts a great double-bitted bronze axe on a
+long haft. Palette: bronze #ffd27a, #d4a85a, #a8762c, #6e4a1a; leather #a8744a, #6e4428, #3a2214; pelt #e8b860,
+#b07a30, #6a4418; hair #ff7a4a, #d0402a, #7a1e14; skin #f0c090, #d08a58, #9a5a34, #5a3018. Loud, fearless, laughs in
+battle.
+```
+
+If GPT refuses a block, drop the costume words it objects to and keep the rest; never push it towards anything more
+revealing than the block says.
+
+---
+
 ## OUTPUT (pick one)
 
 ### A. Standing sprite (do these first, one per character)
@@ -546,6 +660,89 @@ Fixes found on the game's skeleton. Keep everything else as it is; overwrite the
 - Ravenquill and Moonshade are too dark on the game's night background: lift the lit tones of each material by about
   two steps and give the outer silhouette a 1 px lighter rim on the upper-left (lit) side, inside the #0e0c14 outline.
 - Cape cell: leave where it hangs as it is; the game moves its pivot itself.
+```
+
+
+### GLAMOUR HEROINES: parts (2026-11-12)
+Paste **STYLE**, **GLAMOUR**, her character block, **HEROINE PARTS**, then her block below. Attach her approved
+standing sprite and the same templates as for the first eight. Bare skin keeps its 1 px outline on every part, and a
+bare midriff belongs to the torso part.
+
+### lacecut · 蕾刃
+```
+Head: the black bob and the white ruffled headdress, the ribbon-tied lock hanging by her cheek. Cape cell: the
+apron's big white bow and its two long ribbon tails at the small of her back, and the back of the flared skirt.
+Torso: the black bodice, the apron bib, the high collar with its cameo, the skirt's top flaring out just below the
+hips. Thighs: the flared black skirt panel with the white petticoat edge and the apron's edge, a band of bare thigh,
+then the stocking top with its bow. Shin: white stocking. Foot: black strapped shoe. Upper arm: the puffed black
+sleeve. Forearm: bare forearm, a white-gloved fist. Sword cell: the parasol-sword, its curved handle at the red dot,
+the closed black lace parasol along the line, the silver blade tip beyond it.
+```
+
+### queenheart · 红心
+```
+Head: face and fringe, the black rabbit ears on their headband leaning back (keep them inside the cell: lean or bend
+them back rather than clip them). Cape cell: the long wavy platinum hair falling behind her to the waist. Torso: the
+black satin leotard, the red heart buckle, the white collar and red bow tie, the cards at the collar, the round white
+tail at the back of the hip. Upper arm: bare shoulder and arm. Forearm: bare forearm, the white cuff with its gold
+link, a fist. Thighs: the leotard's high-cut edge at the hip, then the dark-grey tights. Shin: tights. Foot: a black
+high heel, heel under the ankle. Sword cell: the black cane, grip at the red dot, the red crystal heart at the far end.
+```
+
+### seafoam · 浪花
+```
+Head: face, the hibiscus behind the ear, the root of the ponytail. Cape cell: the long aqua ponytail streaming back.
+Torso: the bikini top in profile with its shell clasp, the bare midriff, the sarong's knot at the hip. Upper arm: bare.
+Forearm: bare, the shell bracelet, a fist. Thighs: the aqua sarong panel hanging to the knee, its open edge showing
+the bare leg. Shin: bare leg, the sandal's ankle strap at the bottom. Foot: flat sandal. Sword cell: the coral
+trident, grip at the red dot, the three prongs and the pearl at the far end.
+```
+
+### emberdance · 炎舞
+```
+Head: face, the gold circlet and ruby, the root of the braid. Cape cell: the thick braid with its gold rings falling
+behind, and the silk skirt's back panel trailing. Torso: the crimson halter top with its coins, the bare midriff, the
+gold coin belt low on the hips. Upper arm: bare with the gold armlet. Forearm: bare with bangles, a fist. Thighs: the
+long silk skirt panel, orange over crimson, its slit edge showing the leg. Shin: the skirt continuing to the ankle with
+the bare shin in the slit, the gold anklet. Foot: bare foot. Sword cell: the glaive, grip at the red dot, the curved
+blade at the far end with the red tassels below it.
+```
+
+### jadephoenix · 翠凰
+```
+Head: face, the straight fringe, the two round buns. Cape cell: the two long red ribbon tails from the buns. Torso:
+the jade qipao bodice with the mandarin collar, frog buttons and gold phoenix, the skirt's top below the hips. Upper
+arm: bare. Forearm: the red wrist wraps, a fingerless-gloved fist. Thighs: the qipao's front panel with the slit open,
+the bare thigh beside it. Shin: the skirt's hem at mid-calf, the bare shin below. Foot: black cloth shoe, white sole.
+Sword cell: the spear, grip at the red dot, the red horsehair tassel and the leaf-shaped steel head at the far end.
+```
+
+### thunderpop · 雷音
+```
+Head: face, the headset microphone, the roots of the twin tails with their bolt clips. Cape cell: both yellow twin
+tails with blue tips bouncing behind. Torso: the off-shoulder white bodice, the top of the layered skirt. Upper arm:
+bare shoulder, the puffy detached sleeve. Forearm: white glove, a fist. Thighs: the short layered skirt panel (yellow
+over white, zigzag trim), the band of bare thigh, the top of the over-knee boot. Shin: the white boot. Foot: the
+boot. Sword cell: the microphone staff, grip at the red dot, the round mic and the two ribbons at the far end.
+```
+
+### nightrose · 夜蔷
+```
+Head: face, fringe, red eyes. Cape cell: the long silver-white hair to the hips, the bat-wing lace collar rising
+behind the neck, and the gown's long back train. Torso: the laced red bodice, bare shoulders, the rose at the hip.
+Upper arm: bare shoulder, the top of the opera glove. Forearm: black glove, a fist. Thighs: the gown's split front
+panel over the short black underskirt, the bare leg in the split. Shin: the top of the black heeled boot. Foot: the
+heeled boot. Sword cell: the scythe lying flat, grip at the red dot, the black shaft to the right, the red crescent
+blade at the far end curving down.
+```
+
+### redmane · 赤鬃
+```
+Head: face, the bronze headband, the front of the red hair. Cape cell: the wild mass of red hair and the lion-pelt
+mantle's back with its paws. Torso: the bronze breastplate, the bare midriff, the belt. Upper arm: bare, the pelt's
+edge at the shoulder. Forearm: the bronze vambrace, a fist. Thighs: the leather war-skirt strips over the bare thigh.
+Shin: the bronze greave. Foot: the sandal boot. Sword cell: the double-bitted axe, grip at the red dot, the long haft
+to the right, the two bronze blades at the far end (one up, one down, inside the cell).
 ```
 
 ---
