@@ -681,6 +681,20 @@ behind her head, outlined, readable in silhouette. Lift the face one step lighte
 highlight so the face is the clearest part of the sprite.
 ```
 
+
+### GLAMOUR rework 2 (after fork commit d4705cb, 2026-11-13)
+Redmane and Nightrose's standing sprites are kept: go on to their parts (their blocks under GLAMOUR HEROINES: parts).
+Lacecut, Seafoam, Emberdance, Jadephoenix and Thunderpop's parts sheets are kept. Redo only Queenheart's head cell,
+overwriting her sheet (see DELIVERY):
+```
+queenheart, head cell only: the head is painted from behind, the platinum hair covering the face, and the rabbit
+ears are two small black tufts. Repaint it like the other heads: pure side view facing right, her face in profile and
+clearly readable (one eye with its highlight, nose, red lips), platinum fringe and side hair framing it, the long
+hair left to the cape cell. Two tall black satin rabbit ears on the headband, the near one a little lighter, each
+about 3 px wide with a pale pink inner stripe, rising from the top of the head and leaning back to the left so both
+fit inside the cell (bend the tips back if needed, never clip them). Everything else on her sheet stays as it is.
+```
+
 ### GLAMOUR HEROINES: parts (2026-11-12)
 Paste **STYLE**, **GLAMOUR**, her character block, **HEROINE PARTS**, then her block below. Attach her approved
 standing sprite and the same templates as for the first eight. Bare skin keeps its 1 px outline on every part, and a
