@@ -1,0 +1,302 @@
+{
+  "sourceCommit": "8098830b3743117c4ea8fe5f78331a2bd6af6d7a",
+  "output": "A",
+  "frameSize": [
+    96,
+    80
+  ],
+  "upscale": 8,
+  "baselineY": 71,
+  "characters": [
+    {
+      "id": "starweave",
+      "name": "Starweave",
+      "zh": "星澜",
+      "role": "Elemental mage",
+      "roleZh": "元素法师",
+      "bounds": [
+        29,
+        8,
+        66,
+        71
+      ],
+      "eye": [
+        48,
+        16
+      ],
+      "colors": 17
+    },
+    {
+      "id": "frostsong",
+      "name": "Frostsong",
+      "zh": "霜吟",
+      "role": "Ice battle mage",
+      "roleZh": "冰系战斗法师",
+      "bounds": [
+        27,
+        8,
+        67,
+        71
+      ],
+      "eye": [
+        48,
+        15
+      ],
+      "colors": 16
+    },
+    {
+      "id": "crimsonedge",
+      "name": "Crimsonedge",
+      "zh": "绯刃",
+      "role": "Swordswoman",
+      "roleZh": "剑士",
+      "bounds": [
+        26,
+        8,
+        68,
+        71
+      ],
+      "eye": [
+        60,
+        18
+      ],
+      "colors": 17
+    },
+    {
+      "id": "moonshade",
+      "name": "Moonshade",
+      "zh": "月影",
+      "role": "Blade dancer",
+      "roleZh": "双刀舞者",
+      "bounds": [
+        28,
+        8,
+        67,
+        71
+      ],
+      "eye": [
+        48,
+        15
+      ],
+      "colors": 15
+    },
+    {
+      "id": "mistbell",
+      "name": "Mistbell",
+      "zh": "雾铃",
+      "role": "Summoner",
+      "roleZh": "召唤师",
+      "bounds": [
+        29,
+        8,
+        65,
+        71
+      ],
+      "eye": [
+        50,
+        15
+      ],
+      "colors": 16
+    },
+    {
+      "id": "ravenquill",
+      "name": "Ravenquill",
+      "zh": "鸦羽",
+      "role": "Hex witch",
+      "roleZh": "暗系咒术师",
+      "bounds": [
+        31,
+        8,
+        63,
+        71
+      ],
+      "eye": [
+        49,
+        19
+      ],
+      "colors": 16
+    },
+    {
+      "id": "pyrebrass",
+      "name": "Pyrebrass",
+      "zh": "焰铳",
+      "role": "Gunslinger",
+      "roleZh": "枪手",
+      "bounds": [
+        33,
+        8,
+        61,
+        71
+      ],
+      "eye": [
+        48,
+        17
+      ],
+      "colors": 18
+    },
+    {
+      "id": "skyward",
+      "name": "Skyward",
+      "zh": "天穹",
+      "role": "Holy knight",
+      "roleZh": "圣骑士",
+      "bounds": [
+        25,
+        8,
+        70,
+        71
+      ],
+      "eye": [
+        58,
+        16
+      ],
+      "colors": 15
+    },
+    {
+      "id": "lacecut",
+      "name": "Lacecut",
+      "zh": "蕾刃",
+      "role": "Battle maid",
+      "roleZh": "战斗女仆",
+      "bounds": [
+        33,
+        8,
+        61,
+        71
+      ],
+      "eye": [
+        48,
+        17
+      ],
+      "colors": 16
+    },
+    {
+      "id": "queenheart",
+      "name": "Queenheart",
+      "zh": "红心",
+      "role": "Casino gambler",
+      "roleZh": "赌徒",
+      "bounds": [
+        32,
+        8,
+        62,
+        71
+      ],
+      "eye": [
+        49,
+        20
+      ],
+      "colors": 21
+    },
+    {
+      "id": "seafoam",
+      "name": "Seafoam",
+      "zh": "浪花",
+      "role": "Tide mage",
+      "roleZh": "潮汐法师",
+      "bounds": [
+        29,
+        8,
+        66,
+        71
+      ],
+      "eye": [
+        48,
+        16
+      ],
+      "colors": 21
+    },
+    {
+      "id": "emberdance",
+      "name": "Emberdance",
+      "zh": "炎舞",
+      "role": "Fire dancer",
+      "roleZh": "沙漠火舞姬",
+      "bounds": [
+        29,
+        8,
+        65,
+        71
+      ],
+      "eye": [
+        48,
+        16
+      ],
+      "colors": 20
+    },
+    {
+      "id": "jadephoenix",
+      "name": "Jadephoenix",
+      "zh": "翠凰",
+      "role": "Spear fighter",
+      "roleZh": "旗袍武者",
+      "bounds": [
+        31,
+        8,
+        63,
+        71
+      ],
+      "eye": [
+        48,
+        17
+      ],
+      "colors": 19
+    },
+    {
+      "id": "thunderpop",
+      "name": "Thunderpop",
+      "zh": "雷音",
+      "role": "Lightning idol",
+      "roleZh": "偶像歌姬",
+      "bounds": [
+        30,
+        8,
+        64,
+        71
+      ],
+      "eye": [
+        47,
+        16
+      ],
+      "colors": 21
+    },
+    {
+      "id": "nightrose",
+      "name": "Nightrose",
+      "zh": "夜蔷",
+      "role": "Vampire countess",
+      "roleZh": "吸血鬼伯爵夫人",
+      "bounds": [
+        21,
+        8,
+        78,
+        71
+      ],
+      "eye": [
+        48,
+        16
+      ],
+      "colors": 19
+    },
+    {
+      "id": "redmane",
+      "name": "Redmane",
+      "zh": "赤鬃",
+      "role": "Amazon warrior",
+      "roleZh": "亚马逊战士",
+      "bounds": [
+        25,
+        8,
+        70,
+        71
+      ],
+      "eye": [
+        47,
+        18
+      ],
+      "colors": 19
+    }
+  ],
+  "baseStandingPromptCommit": "65fb25b38f8ea1ba848b004b6e3547c37ec27b6a",
+  "reworkPromptCommit": "66a21ae7984bae6352ce6f45ad04dfef0152e5ae"
+}

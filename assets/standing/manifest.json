@@ -1,0 +1,168 @@
+{
+  "sourceCommit": "33b9a6cee047f277baca6ba03a75cd4a7f677984",
+  "nativeSize": [
+    96,
+    80
+  ],
+  "upscale": 8,
+  "characters": [
+    {
+      "id": "hero",
+      "name": "Dawnfrost",
+      "colors": 14,
+      "bounds": [
+        34,
+        8,
+        60,
+        71
+      ],
+      "feetBaselineY": 71
+    },
+    {
+      "id": "ironblood",
+      "name": "Lionheart",
+      "colors": 12,
+      "bounds": [
+        31,
+        8,
+        64,
+        71
+      ],
+      "feetBaselineY": 71
+    },
+    {
+      "id": "jadegale",
+      "name": "Jade Gale",
+      "colors": 14,
+      "bounds": [
+        32,
+        8,
+        62,
+        71
+      ],
+      "feetBaselineY": 71
+    },
+    {
+      "id": "nightcrow",
+      "name": "Nightcrow",
+      "colors": 13,
+      "bounds": [
+        29,
+        8,
+        66,
+        71
+      ],
+      "feetBaselineY": 71
+    },
+    {
+      "id": "sunforged",
+      "name": "Sunforged",
+      "colors": 13,
+      "bounds": [
+        30,
+        8,
+        64,
+        71
+      ],
+      "feetBaselineY": 71
+    },
+    {
+      "id": "snowfield",
+      "name": "Snowfield",
+      "colors": 12,
+      "bounds": [
+        34,
+        8,
+        61,
+        71
+      ],
+      "feetBaselineY": 71
+    },
+    {
+      "id": "emberwake",
+      "name": "Emberwake",
+      "colors": 13,
+      "bounds": [
+        34,
+        8,
+        60,
+        71
+      ],
+      "feetBaselineY": 71
+    },
+    {
+      "id": "frostblade",
+      "name": "Frostblade",
+      "colors": 14,
+      "bounds": [
+        29,
+        8,
+        65,
+        71
+      ],
+      "feetBaselineY": 71
+    },
+    {
+      "id": "brassgun",
+      "name": "Brassgun",
+      "colors": 14,
+      "bounds": [
+        34,
+        8,
+        61,
+        71
+      ],
+      "feetBaselineY": 71
+    },
+    {
+      "id": "mossfist",
+      "name": "Moss Fist",
+      "colors": 14,
+      "bounds": [
+        33,
+        8,
+        61,
+        71
+      ],
+      "feetBaselineY": 71
+    },
+    {
+      "id": "runeweave",
+      "name": "Runeweave",
+      "colors": 12,
+      "bounds": [
+        28,
+        8,
+        66,
+        71
+      ],
+      "feetBaselineY": 71
+    },
+    {
+      "id": "starsea",
+      "name": "Starsea",
+      "colors": 15,
+      "bounds": [
+        34,
+        8,
+        61,
+        71
+      ],
+      "feetBaselineY": 71
+    },
+    {
+      "id": "voidborn",
+      "name": "Voidborn",
+      "colors": 13,
+      "bounds": [
+        24,
+        8,
+        71,
+        71
+      ],
+      "feetBaselineY": 71
+    }
+  ],
+  "reworkPromptCommit": "17ef850b9132a926988cc8298d9fd59fbb010ec5",
+  "thirdPassPromptCommit": "90faddea9a3040718f5dc3357c66ed9c5eb5b408"
+}

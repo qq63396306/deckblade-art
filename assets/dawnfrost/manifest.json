@@ -1,0 +1,108 @@
+{
+  "frameSize": [
+    96,
+    80
+  ],
+  "origin": [
+    48,
+    72
+  ],
+  "groundLastPixelY": 71,
+  "palette": [
+    "#0e0c14",
+    "#6f97c6",
+    "#e8f4ff",
+    "#a9cdea",
+    "#f9d3b4",
+    "#3c4c80",
+    "#dd9a78",
+    "#fff5d7",
+    "#935c4f",
+    "#1d2348",
+    "#4a6198",
+    "#2b3563",
+    "#ffcf3a",
+    "#c28a38"
+  ],
+  "turnaroundOrder": [
+    "right",
+    "front",
+    "back"
+  ],
+  "actions": {
+    "run": {
+      "frames": 8,
+      "durationMs": [
+        75,
+        75,
+        75,
+        75,
+        75,
+        75,
+        75,
+        75
+      ],
+      "loop": true
+    },
+    "slash": {
+      "frames": 6,
+      "durationMs": [
+        90,
+        115,
+        70,
+        55,
+        115,
+        130
+      ],
+      "loop": false
+    },
+    "cast": {
+      "frames": 4,
+      "durationMs": [
+        120,
+        95,
+        200,
+        125
+      ],
+      "loop": false
+    },
+    "hit": {
+      "frames": 2,
+      "durationMs": [
+        90,
+        170
+      ],
+      "loop": false
+    },
+    "jump": {
+      "frames": 4,
+      "durationMs": [
+        95,
+        105,
+        145,
+        120
+      ],
+      "loop": false,
+      "suggestedPreviewLiftPx": [
+        0,
+        7,
+        20,
+        0
+      ]
+    },
+    "idle": {
+      "frames": 4,
+      "durationMs": [
+        200,
+        180,
+        230,
+        180
+      ],
+      "loop": true
+    }
+  },
+  "turnaroundFrameSize": [
+    96,
+    80
+  ]
+}

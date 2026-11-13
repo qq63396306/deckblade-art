@@ -1,0 +1,419 @@
+{
+  "sourceCommit": "6bc505fd15ef17c597df294fa284957ab1b9ddab",
+  "reworkRound": 1,
+  "parentAssetCommit": "29d9ca9903581fb1237cf59f08936153905deb8c",
+  "standingCommit": "2cab1ebf198a9a1e7d261883aa96c36b1420f228",
+  "size": [
+    104,
+    124
+  ],
+  "upscale": 8,
+  "parts": [
+    "head",
+    "torso",
+    "upperArm",
+    "foreArm",
+    "thigh",
+    "shin",
+    "foot",
+    "cape",
+    "sword"
+  ],
+  "poses": {
+    "stand": 1,
+    "run": 4,
+    "combo": 6,
+    "fists": 4,
+    "rising": 4
+  },
+  "characters": [
+    {
+      "id": "starweave",
+      "name": "Starweave",
+      "zh": "星澜",
+      "colors": 17,
+      "partPixels": {
+        "head": 320,
+        "torso": 381,
+        "upperArm": 141,
+        "foreArm": 124,
+        "thigh": 297,
+        "shin": 147,
+        "foot": 116,
+        "cape": 464,
+        "sword": 278
+      },
+      "weaponBounds": [
+        1,
+        1,
+        56,
+        17
+      ],
+      "checkedPoses": 19
+    },
+    {
+      "id": "frostsong",
+      "name": "Frostsong",
+      "zh": "霜吟",
+      "colors": 16,
+      "partPixels": {
+        "head": 304,
+        "torso": 397,
+        "upperArm": 145,
+        "foreArm": 136,
+        "thigh": 254,
+        "shin": 154,
+        "foot": 113,
+        "cape": 570,
+        "sword": 263
+      },
+      "weaponBounds": [
+        1,
+        3,
+        56,
+        16
+      ],
+      "checkedPoses": 19
+    },
+    {
+      "id": "crimsonedge",
+      "name": "Crimsonedge",
+      "zh": "绯刃",
+      "colors": 17,
+      "partPixels": {
+        "head": 309,
+        "torso": 373,
+        "upperArm": 159,
+        "foreArm": 142,
+        "thigh": 250,
+        "shin": 159,
+        "foot": 116,
+        "cape": 622,
+        "sword": 279
+      },
+      "weaponBounds": [
+        1,
+        4,
+        55,
+        15
+      ],
+      "checkedPoses": 19
+    },
+    {
+      "id": "moonshade",
+      "name": "Moonshade",
+      "zh": "月影",
+      "colors": 19,
+      "partPixels": {
+        "head": 294,
+        "torso": 388,
+        "upperArm": 154,
+        "foreArm": 131,
+        "thigh": 297,
+        "shin": 154,
+        "foot": 112,
+        "cape": 487,
+        "sword": 165
+      },
+      "weaponBounds": [
+        1,
+        5,
+        33,
+        15
+      ],
+      "checkedPoses": 19
+    },
+    {
+      "id": "mistbell",
+      "name": "Mistbell",
+      "zh": "雾铃",
+      "colors": 16,
+      "partPixels": {
+        "head": 294,
+        "torso": 382,
+        "upperArm": 146,
+        "foreArm": 131,
+        "thigh": 261,
+        "shin": 160,
+        "foot": 116,
+        "cape": 462,
+        "sword": 241
+      },
+      "weaponBounds": [
+        1,
+        2,
+        56,
+        17
+      ],
+      "checkedPoses": 19
+    },
+    {
+      "id": "ravenquill",
+      "name": "Ravenquill",
+      "zh": "鸦羽",
+      "colors": 20,
+      "partPixels": {
+        "head": 260,
+        "torso": 390,
+        "upperArm": 137,
+        "foreArm": 125,
+        "thigh": 294,
+        "shin": 146,
+        "foot": 111,
+        "cape": 541,
+        "sword": 86
+      },
+      "weaponBounds": [
+        1,
+        6,
+        24,
+        13
+      ],
+      "checkedPoses": 19
+    },
+    {
+      "id": "pyrebrass",
+      "name": "Pyrebrass",
+      "zh": "焰铳",
+      "colors": 18,
+      "partPixels": {
+        "head": 282,
+        "torso": 412,
+        "upperArm": 145,
+        "foreArm": 131,
+        "thigh": 241,
+        "shin": 154,
+        "foot": 111,
+        "cape": 283,
+        "sword": 232
+      },
+      "weaponBounds": [
+        1,
+        1,
+        33,
+        17
+      ],
+      "checkedPoses": 19
+    },
+    {
+      "id": "skyward",
+      "name": "Skyward",
+      "zh": "天穹",
+      "colors": 15,
+      "partPixels": {
+        "head": 279,
+        "torso": 388,
+        "upperArm": 145,
+        "foreArm": 139,
+        "thigh": 259,
+        "shin": 146,
+        "foot": 110,
+        "cape": 448,
+        "sword": 240
+      },
+      "weaponBounds": [
+        2,
+        3,
+        56,
+        17
+      ],
+      "checkedPoses": 19
+    },
+    {
+      "id": "lacecut",
+      "name": "Lacecut",
+      "zh": "蕾刃",
+      "colors": 16,
+      "partPixels": {
+        "head": 307,
+        "torso": 377,
+        "upperArm": 137,
+        "foreArm": 130,
+        "thigh": 249,
+        "shin": 158,
+        "foot": 108,
+        "cape": 395,
+        "sword": 388
+      },
+      "weaponBounds": [
+        1,
+        2,
+        56,
+        17
+      ],
+      "checkedPoses": 19
+    },
+    {
+      "id": "queenheart",
+      "name": "Queenheart",
+      "zh": "红心",
+      "colors": 23,
+      "partPixels": {
+        "head": 217,
+        "torso": 417,
+        "upperArm": 148,
+        "foreArm": 136,
+        "thigh": 226,
+        "shin": 156,
+        "foot": 108,
+        "cape": 582,
+        "sword": 322
+      },
+      "weaponBounds": [
+        1,
+        3,
+        56,
+        16
+      ],
+      "checkedPoses": 19
+    },
+    {
+      "id": "seafoam",
+      "name": "Seafoam",
+      "zh": "浪花",
+      "colors": 21,
+      "partPixels": {
+        "head": 292,
+        "torso": 406,
+        "upperArm": 154,
+        "foreArm": 140,
+        "thigh": 289,
+        "shin": 158,
+        "foot": 111,
+        "cape": 449,
+        "sword": 307
+      },
+      "weaponBounds": [
+        1,
+        1,
+        56,
+        17
+      ],
+      "checkedPoses": 19
+    },
+    {
+      "id": "emberdance",
+      "name": "Emberdance",
+      "zh": "炎舞",
+      "colors": 20,
+      "partPixels": {
+        "head": 291,
+        "torso": 383,
+        "upperArm": 148,
+        "foreArm": 150,
+        "thigh": 297,
+        "shin": 174,
+        "foot": 104,
+        "cape": 600,
+        "sword": 236
+      },
+      "weaponBounds": [
+        1,
+        1,
+        56,
+        17
+      ],
+      "checkedPoses": 19
+    },
+    {
+      "id": "jadephoenix",
+      "name": "Jadephoenix",
+      "zh": "翠凰",
+      "colors": 19,
+      "partPixels": {
+        "head": 292,
+        "torso": 395,
+        "upperArm": 151,
+        "foreArm": 143,
+        "thigh": 292,
+        "shin": 154,
+        "foot": 114,
+        "cape": 357,
+        "sword": 350
+      },
+      "weaponBounds": [
+        1,
+        1,
+        56,
+        17
+      ],
+      "checkedPoses": 19
+    },
+    {
+      "id": "thunderpop",
+      "name": "Thunderpop",
+      "zh": "雷音",
+      "colors": 21,
+      "partPixels": {
+        "head": 329,
+        "torso": 388,
+        "upperArm": 139,
+        "foreArm": 142,
+        "thigh": 268,
+        "shin": 153,
+        "foot": 108,
+        "cape": 399,
+        "sword": 299
+      },
+      "weaponBounds": [
+        1,
+        1,
+        56,
+        17
+      ],
+      "checkedPoses": 19
+    },
+    {
+      "id": "nightrose",
+      "name": "Nightrose",
+      "zh": "夜蔷",
+      "colors": 19,
+      "partPixels": {
+        "head": 285,
+        "torso": 389,
+        "upperArm": 135,
+        "foreArm": 132,
+        "thigh": 286,
+        "shin": 148,
+        "foot": 103,
+        "cape": 520,
+        "sword": 242
+      },
+      "weaponBounds": [
+        1,
+        4,
+        59,
+        17
+      ],
+      "checkedPoses": 19
+    },
+    {
+      "id": "redmane",
+      "name": "Redmane",
+      "zh": "赤鬃",
+      "colors": 19,
+      "partPixels": {
+        "head": 291,
+        "torso": 407,
+        "upperArm": 143,
+        "foreArm": 140,
+        "thigh": 266,
+        "shin": 165,
+        "foot": 113,
+        "cape": 515,
+        "sword": 306
+      },
+      "weaponBounds": [
+        1,
+        1,
+        58,
+        17
+      ],
+      "checkedPoses": 19
+    }
+  ],
+  "latestAdditionPromptCommit": "8ab9deea9529c87d6f519f9d04a0d63dc5bb6afa",
+  "latestAdditionStandingCommit": "d4705cb7c0aa2deccb2ddf5567780bbb2542c400",
+  "glamourReworkRound": 2,
+  "glamourReworkParent": "d4705cb7c0aa2deccb2ddf5567780bbb2542c400"
+}
