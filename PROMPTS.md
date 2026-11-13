@@ -651,6 +651,8 @@ behind the head.
 
 If the standing sprite was changed on a later pass, paint the parts from the latest approved version.
 
+Note (2026-11-13): the game narrows every heroine's torso, arms and legs across (about 0.7) to make her slender, so keep painting the parts at the mannequin's width as asked above; do not slim them yourself, or she ends up twice as thin.
+
 ### HEROINE PARTS rework 1 (after fork commit 29d9ca9, 2026-11-12)
 ```
 Fixes found on the game's skeleton. Keep everything else as it is; overwrite the same files (see DELIVERY).
